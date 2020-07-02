@@ -1,0 +1,21 @@
+{
+    "name": "Gift Puzzle",
+    "short_name": "Gift Puzzle",
+    "start_url": "https://gift.desrochers.dev",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#D67245",
+    "background_color": "#D67245",
+    "display": "standalone"
+}
