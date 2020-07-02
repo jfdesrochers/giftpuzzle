@@ -2,7 +2,6 @@ var APP_PREFIX = 'JFDGift_'     // Identifier for this app (this needs to be con
 var VERSION = 'version_01'              // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
-    '/',
     '/index.html',
     '/assets/css/app.css',
     '/assets/fonts/montserrat_bold.woff2',
