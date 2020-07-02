@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Gift Puzzle by Jean-François Desrochers</title>
-        <link href="assets/css/app.css" rel="stylesheet">
+        <link rel="canonical" href="https://gift.desrochers.dev/">
+        <link rel="stylesheet" href="assets/css/app.css">
     </head>
     <body>
 
@@ -12,9 +13,9 @@
 
         <div id="contents" class="container"></div>
         <script>
-            if (navigator.serviceWorker) {
-                navigator.serviceWorker.register('/sw.js', {scope: '/'})
-            }
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register('/sw.js', {scope: '/'})
+        }
         </script>
         <script src="assets/vendor/js/mithril.min.js"></script>
         <script src="assets/vendor/js/forge.min.js"></script>
